@@ -1,0 +1,46 @@
+/*Global*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'arial', sans-serif;
+}
+p{
+  line-height: 1.5;
+}
+
+h2{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 249, 249);
+}
+
+
+/*Header*/
+.site-init {
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  border-bottom: 1px solid #eee;
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.site-init nav a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
