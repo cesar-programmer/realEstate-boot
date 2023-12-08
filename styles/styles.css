@@ -20,7 +20,7 @@ h2{
 
 a{
   text-decoration: none;
-  color: rgb(255, 249, 249);
+  color: rgb(255, 255, 255);
 }
 
 
@@ -166,4 +166,76 @@ a{
   margin: 20px auto 0;
   margin-bottom: 30px;
   margin-top: 20px;
+}
+
+
+/*house item view*/
+.site-footer{
+  background-image: url(../imgs/highlight.jpg);
+  background-size: cover;
+  border-bottom: 1px solid #eee;
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.site-footer p{
+  margin-top: 10px;
+}
+
+.footer-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.site-footer a {
+  width: 100%;
+}
+
+
+/*Contact header view*/
+.header-contact{
+  background-color: black;
+  background-size: cover;
+  border-bottom: 1px solid #eee;
+  height:100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+fieldset{
+  padding: 20px;
+}
+
+legend{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.input-container{
+  padding: 10px;
+}
+
+.input-container label{
+  display: inline-block;
+  width: 180px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.input-container input,
+.input-container textarea{
+  background-color: lightgrey;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70%;
 }
