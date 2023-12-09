@@ -50,12 +50,20 @@ a{
 
 .bar{
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   height: 100px;
   align-items: center;
   width: 100%;
 }
 
+@media (max-width: 768px){
+  .bar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /*utilities*/
 .container{
@@ -79,6 +87,23 @@ a{
   text-align: center;
   margin-bottom: 20px;
   margin-top: 10px;
+}
+
+
+
+@media (max-width: 768px){
+  .container-house-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px){
+  .container{
+    width: 90%;
+  }
 }
 
 
@@ -112,6 +137,17 @@ a{
   text-align: center;
 }
 
+@media (max-width: 768px){
+  .section-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .more-about-item{
+    margin-bottom: 20px;
+  }
+}
 
 /*house item view*/
 .house-item {

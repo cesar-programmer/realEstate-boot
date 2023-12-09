@@ -1,0 +1,54 @@
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: start;
+}
+
+th,td{
+  padding: 5px;
+  text-align: center;
+}
+
+.error{
+  color: red;
+  background-color: lightpink;
+}
+
+thead{
+  background-color: rgb(165, 223, 242);
+}
+
+tbody{
+  background-color: rgb(119, 207, 255);
+}
+
+/*desktop view*/
+.site-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*mobile view*/
+@media (min-width: 768px){
+  .site-nav{
+    flex-direction: column;
+  }
+}
+
+
+/*
+/*mobile view
+.site-nav{
+  display: flex;
+  flex-direction: column;
+}
+
+/*desktop view
+@media (min-width: 768px){
+  .site-nav{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+*/

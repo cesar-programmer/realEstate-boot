@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/practices.css">
   <title>Document</title>
   <style>
     .input-control {
@@ -14,6 +15,11 @@
   </style>
 </head>
 <body>
+  <nav class="site-nav">
+    <a href="link">Home</a>
+    <a href="link">About</a>
+    <a href="link">Contact</a>
+  </nav>
   <form action="">
     <input type="text" class="input-control" value="predefined value">
     <input type="number" class="input-control" id="age">
@@ -48,5 +54,56 @@
     </select>
     <button>Add</button>
   </form>
+
+  <h1>Tabables in HTML</h1>
+
+  <table>
+    <thead>
+      <th>Empld</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Age</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>E342</td>
+        <td>Bill</td>
+        <td>Evans</td>
+        <td>Bill@devcurry.com</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>E343</td>
+        <td>Laura</td>
+        <td>Matt</td>
+        <td>Laura@devcurry.com</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>E344</td>
+        <td>Ram</td>
+        <td>Kumar</td>
+        <td>Ram@devcurry.com</td>
+        <td>56</td>
+      </tr>
+      <tr>
+        <td>E345</td>
+        <td class="error">Yuri</td>
+        <td>Gagrin</td>
+        <td>Yuri@devcurry.com</td>
+        <td>39</td>
+      </tr>
+      <tr>
+        <td>E346</td>
+        <td>Asha</td>
+        <td>Singh</td>
+        <td>Asha@devcurry.com</td>
+        <td>42</td>
+      </tr>
+    </tbody>
+  </table>
+
+
 </body>
 </html>
